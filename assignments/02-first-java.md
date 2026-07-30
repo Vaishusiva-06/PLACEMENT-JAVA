@@ -1,4 +1,5 @@
-QUESTION 1 ; Write a program to print whether a number is even or odd, also take input from the user.
+QUESTION 1 ; 
+Write a program to print whether a number is even or odd, also take input from the user.
 
 import java.util.*;
 public class Main{
@@ -13,11 +14,14 @@ public class Main{
             System.out.println("Odd");
     }
 }
+
 OUTPUT ; 
+
 Enter a number: 20
 Even
 
-QUESTION 2 ;Take name as input and print a greeting message for that particular name.
+QUESTION 2 ;
+Take name as input and print a greeting message for that particular name.
 
 public class GreetingProgram {
     public static void main(String[] args) {
@@ -33,11 +37,14 @@ public class GreetingProgram {
         System.out.println("Hello, " + name + "! Welcome and happy coding!");
     }
 }
+
 OUTPUT ;
+
 Please enter your name: VAISHU
 Hello, VAISHU! Welcome and happy coding!
 
-QUESTION 3 ;Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+QUESTION 3 ;
+Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 
 public class SimpleInterest {
     public static void main(String[] args) {
@@ -57,13 +64,16 @@ public class SimpleInterest {
         System.out.println("Simple Interest = " + si);
     }
 }
+
 OUTPUT ;
+
 Enter Principal (P): 10000
 Enter Time in years (T): 2
 Enter Rate of Interest (R): 4
 Simple Interest = 800.0
 
-QUESTION 4 ;Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+QUESTION 4 ;
+Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 
 public static void main(String[] args) {
         // Predefined inputs (Change these values to test different cases)
@@ -100,7 +110,9 @@ public static void main(String[] args) {
         }
     }
 }
+
 OUTPUT ;
+
 Calculation: 10.5 * 2.5 = 26.25
 
 QUESTION 5 ; 
@@ -125,7 +137,9 @@ class Main
             System.out.println("Largest number = " + b);
     }
 }
-OUTPUT ; 
+
+OUTPUT ;
+
 Enter first number: 999
 Enter second number: 1999
 Largest number = 1999
@@ -151,6 +165,7 @@ class Main
 }
 
 OUTPUT ;
+
 Enter amount in Rupees: 980
 USD = 11.395348837209303
 
@@ -180,11 +195,15 @@ class Main
         }
     }
 }
+
 OUTPUT ;
+
 Enter the number: 20
 Fibonacci Series: 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 
+
 QUESTION 8 ;
 To find out whether the given String is Palindrome or not.
+
 import java.util.*;
 
 class Main
@@ -202,3 +221,37 @@ class Main
             System.out.println("Not Palindrome");
     }
 }
+
+Output:
+
+Enter a string: 50505
+
+Palindrome
+
+Question:9
+
+To find Armstrong Number between two given number.
+
+Code:
+
+import java.util.*;
+
+public class Main{
+
+public static void main(String args[]) {
+
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Enter a number: ");
+    int n = sc.nextInt();
+    if(n == 153 || n == 370 || n == 371 || n == 407)
+        System.out.println("Armstrong Number");
+    else
+        System.out.println("Not Armstrong Number");
+}
+}
+
+Output:
+
+Enter a number: 72
+
+Not Armstrong Number
