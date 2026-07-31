@@ -37,3 +37,47 @@ Enter the array elements:
 50
 Reversed array:
 50 40 30 20 10 
+QUESTION 2;
+Count the occurrence of a specific number.
+CODE ;
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter the size of the array: ");
+        int n = sc.nextInt();
+
+        int[] arr = new int[n];
+
+        System.out.println("Enter the array elements:");
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.print("Enter the number to count: ");
+        int num = sc.nextInt();
+
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == num) {
+                count++;
+            }
+        }
+
+        System.out.println("Occurrence of " + num + " = " + count);
+    }
+}
+OUTPUT ;
+Enter the size of the array: 3
+Enter the array elements:
+2
+3
+8
+Enter the number to count: 2
+Occurrence of 2 = 1
+QUESTION 3 ;
