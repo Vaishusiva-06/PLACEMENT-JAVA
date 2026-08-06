@@ -1,0 +1,18 @@
+Matches()
+
+Description:It searches a string of a match against a regular expression and return the matches.
+
+Program:
+
+public class Main {
+    public static void main(String[] args) {
+        String s="123";
+        System.out.println(s.matches("\\d+"));
+    }
+}
+
+Output:
+
+true
+
+=== Code Execution Successful ===
